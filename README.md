@@ -1,16 +1,86 @@
-# React + Vite
+# 🧑‍💻 React User Profile Card Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and interactive **React.js project** that allows you to create, display, and remove user profile cards dynamically.  
+You can input a name, email, and image URL — and the app instantly generates a stylish profile card!
 
-Currently, two official plugins are available:
+Live Demo 👉 [**Click Here**](https://RaviranjanMishra01.github.io/react-user-profile-card-generator)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+## 📸 Example Preview
+![](./public/image.png)
 
-## React Compiler
+## 📖 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The **React User Profile Card Generator** is a beginner-friendly React project that helps you practice working with forms, managing state, and rendering dynamic components using React Hooks.  
 
-## Expanding the ESLint configuration
+This app is perfect for understanding how to:
+- Handle **form inputs** using `useState`
+- Add and remove items dynamically
+- Structure a small React project
+- Deploy a React app live on **GitHub Pages**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Features
+
+- ✨ Create user profiles with name, email, and image URL  
+- 🖼️ Instant live preview of added users  
+- ❌ Remove any user profile card easily  
+- 🎨 Simple and clean CSS styling  
+- ⚡ Built with React 19 + Vite for lightning-fast development  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** (Functional Components + Hooks)
+- **Vite** (Development Environment)
+- **CSS3** (Custom Styling)
+
+---
+
+## 📂 Folder Structure
+```js
+react-user-profile-card-generator/
+│
+├── src/
+│ ├── App.jsx
+│ ├── App.css
+│ ├── main.jsx
+│ └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+---
+
+## ⚙️ Installation and Setup
+
+Follow these steps to run the app locally 👇
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/RaviranjanMishra01/react-user-profile-card-generator.git
+
+# 2️⃣ Navigate to project folder
+cd react-user-profile-card-generator
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Start the development server
+npm run dev
+Now open your browser and visit http://localhost:5173
+
+🌐 Deploy on GitHub Pages
+To make your project live:
+
+
+
+```
+
+
+🧑‍💻 Auther
+
+Made with ❤️ by Raviranjan kumsr
